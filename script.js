@@ -4,17 +4,17 @@ let ans = prompt("Enter a string")
 let obj = {}
 
 for(let i = 0; i < ans.length; i++){
-	if(obj[str[i]]){
-		obj[str[i]]++
+	if(obj[ans[i]]){
+		obj[ans[i]]++
 	}
 	else {
-		obj[str[i]] = 1;
+		obj[ans[i]] = 1;
 	}
 }
 
 for (let index = 0; index < ans.length; index++) {
-	if(obj[str[index]] === 1){
-		alert(str[index]);
+	if(obj[ans[index]] === 1){
+		alert(ans[index]);
 		break;
 	}
 }
