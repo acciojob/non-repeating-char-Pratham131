@@ -14,7 +14,7 @@ for(let i = 0; i < ans.length; i++){
 
 for (let index = 0; index < ans.length; index++) {
 	if(obj[ans[index]] === 1){
-		alert(ans[index]);
+		alert(`${ans[index]}`);
 		break;
 	}
 }
