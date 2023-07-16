@@ -3,7 +3,7 @@ let ans = prompt("Enter a string")
 
 let obj = {}
 
-for(let i = 0; ans.length; i++){
+for(let i = 0; i < ans.length; i++){
 	if(obj[str[i]]){
 		obj[str[i]]++
 	}
