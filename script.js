@@ -20,17 +20,12 @@ for (let index = 0; index < ans.length; index++) {
   }
 }
 
-if (firstNonRepeatedChar) {
+//  
   alert(firstNonRepeatedChar);
-} else {
-  alert();
-}
-// for (let index = 0; index < ans.length; index++) {
-// 	if(obj[ans[index]] === 1){
-// 		alert(`${ans[index]}`);
-// 		break;
-// 	}
+// } else {
+//   alert();
 // }
+ 
 
 
 // alert(${ans})
