@@ -23,7 +23,7 @@ for (let index = 0; index < ans.length; index++) {
 if (firstNonRepeatedChar) {
   alert(firstNonRepeatedChar);
 } else {
-  alert("No non-repeated characters found.");
+  alert("");
 }
 // for (let index = 0; index < ans.length; index++) {
 // 	if(obj[ans[index]] === 1){
